@@ -2,9 +2,9 @@ SUMMARY = "The AWS IoT client establishes a connection to AWS IoT, executes jobs
 
 LICENSE = "CLOSED"
 
-SRC_URI = "gitsm://git@github.com/osb-cc-esec/awsclient.git;protocol=ssh;branch=master"
+SRC_URI = "gitsm://git@github.com/osb-cc-esec/awsclient.git;protocol=ssh"
 
-SRCREV = "fa01a3fc783b6ddf4188d2f065173e8806674a33"
+SRCREV = "badec8ececfd2cc5a7c0bad5d727a5e772561f82"
 S = "${WORKDIR}/git"
 
 DEPENDS = "curl glib-2.0 glib-2.0-native json-glib openssl"
