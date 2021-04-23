@@ -4,7 +4,7 @@ LICENSE = "CLOSED"
 
 SRC_URI = "gitsm://git@github.com/osb-cc-esec/awsclient.git;protocol=ssh"
 
-SRCREV = "badec8ececfd2cc5a7c0bad5d727a5e772561f82"
+SRCREV = "190dd3b04459c706ad125e16ed40204b0cf726f1"
 S = "${WORKDIR}/git"
 
 DEPENDS = "curl glib-2.0 glib-2.0-native json-glib openssl"
